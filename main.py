@@ -9,9 +9,21 @@ class neuralNetwork:
         self.onodes = outputNodes
         # learningrate
         self.lr = learningRate
-        
+        #link weight
+
+
+        # activation function -> sigmoid function
+
     def train(self):
+        numpy
         pass
 
     def query(self):
         pass
+
+input_nodes = 3
+hidden_nodes = 3
+output_nodes = 3
+learnig_rate = 0.3
+
+nn = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learnig_rate)
