@@ -1,4 +1,3 @@
-from _typeshed import Self
 import numpy,matplotlib.pyplot
 
 class neuralNetwork:
