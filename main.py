@@ -1,3 +1,4 @@
+from _typeshed import Self
 import numpy,matplotlib.pyplot
 
 class neuralNetwork:
@@ -13,13 +14,12 @@ class neuralNetwork:
 
 
         # activation function -> sigmoid function
-
+        
     def train(self):
-        numpy
         pass
 
-    def query(self):
-        pass
+    def query(self,inputList):
+        return outputList
 
 input_nodes = 3
 hidden_nodes = 3
